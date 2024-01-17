@@ -36,7 +36,8 @@ namespace project
             this.Hide();
             MainWindow mw = new MainWindow();
             mw.Show();
-            MessageBox.Show("Вы успешно авторизовались в системе. Выполните вход");
+            MessageBox.Show("Вы успешно авторизовались в системе. Выполните вход",
+                "Message");
         }
     }
 }
