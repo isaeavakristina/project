@@ -26,7 +26,8 @@ namespace project
             this.Hide();
             Account acc = new Account();
             acc.Show();
-            MessageBox.Show("Вы успешно вошли в систему.");
+            MessageBox.Show("Вы успешно вошли в систему.",
+                "Message");
         }
 
         private void create_an_acc(object sender, RoutedEventArgs e)

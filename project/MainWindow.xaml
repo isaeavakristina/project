@@ -24,8 +24,8 @@
 
         <TextBlock Grid.Row="1" Text="Authorization" Style="{StaticResource Text1}" HorizontalAlignment="Center" VerticalAlignment="Top" />
         <Rectangle Grid.Row="1" Width="400" Fill="White" Stroke="White"  HorizontalAlignment="Center" Height="4" Margin="0,119,0,34"   />
-        <TextBox Grid.Row="2" Style="{StaticResource input}" VerticalAlignment="Top"  />
-        <TextBox Grid.Row="3" Style="{StaticResource input}" VerticalAlignment="Top" />
+        <TextBox Text="login" Grid.Row="2" Style="{StaticResource input}" VerticalAlignment="Top"  />
+        <TextBox Text="password" Grid.Row="3" Style="{StaticResource input}" VerticalAlignment="Top" />
         <Button Content="log in" Click="log_in"  Grid.Row="3"  VerticalAlignment="Top" Style="{StaticResource Buttons}" Margin="500,157,800,0" Grid.RowSpan="2"/>
         <Button Content="create an acc" Click="create_an_acc" Grid.Row="3"  VerticalAlignment="Top" Style="{StaticResource Buttons}" Margin="800,157,500,0" Grid.RowSpan="2"/>
         <Rectangle Width="700" Stroke="White" Margin="400,40,400,70" Grid.RowSpan="5" />
